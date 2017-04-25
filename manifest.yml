@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: LarryPodTest
+  host: LarryPodTest
+  disk_quota: 1024M
+  services:
+  - LarryPodTest-cloudantNoSQLDB
+  - Language Translator-r5
+  - Conversation-mr
+  - availability-monitoring-auto
